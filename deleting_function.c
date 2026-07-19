@@ -19,6 +19,10 @@ int main(){
 
    printf("Enter index number for deleting value :");
    scanf("%d", &loc);
+   if(loc>n){
+    printf("Invalid index number !!");
+    return 0;
+   }
 
 //    for(int i=loc; i<n-1; i++){
 //         arr[i] = arr[i+1];
