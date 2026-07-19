@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int delete(int n,int arr[n],int loc){
+void delete(int n,int arr[n],int loc){
     for(int i=loc; i<n-1; i++){
         arr[i]= arr[i+1];
     }
