@@ -33,6 +33,8 @@ int main(){
 //         arr[i] = arr[i+1];
 //    }
 
+    delete(arr,n,loc);
+
    for(int i=0; i<n-1; i++){
     printf("%d ",arr[i]);
    }
